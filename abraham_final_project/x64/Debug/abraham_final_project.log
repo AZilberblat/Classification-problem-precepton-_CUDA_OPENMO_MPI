@@ -1,0 +1,33 @@
+﻿  
+  C:\projects\abraham_final_project\abraham_final_project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\projects\abraham_final_project\abraham_final_project\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\projects\abraham_final_project\abraham_final_project>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -Xcompiler /openmp -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\projects\abraham_final_project\abraham_final_project\kernel.cu" 
+  kernel.cu
+C:/projects/abraham_final_project/abraham_final_project/kernel.cu(128): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/projects/abraham_final_project/abraham_final_project/kernel.cu(156): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:/projects/abraham_final_project/abraham_final_project/kernel.cu(269): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Seq.cpp
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(55): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(58): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(164): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(13): warning C4101: 'myid': unreferenced local variable
+c:\projects\abraham_final_project\abraham_final_project\seq.cpp(13): warning C4101: 'numprocs': unreferenced local variable
+  Project.cpp
+  Generating Code...
+  abraham_final_project.vcxproj -> C:\projects\abraham_final_project\x64\Debug\abraham_final_project.exe
+  abraham_final_project.vcxproj -> C:\projects\abraham_final_project\x64\Debug\abraham_final_project.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\projects\abraham_final_project\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
